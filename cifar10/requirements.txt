@@ -1,0 +1,18 @@
+conda create --name rsr python=3.6
+conda activate rsr
+
+conda install pytorch==1.4.0 torchvision==0.5.0 cudatoolkit=10.0 -c pytorch
+
+conda install imageio
+conda install scipy
+conda install six
+conda install numpy==1.18.1
+conda install python-dateutil==2.7.3
+conda install tensorboardX==1.6
+# For the reward calculation, external tf code
+conda install tensorflow-gpu==1.13.1
+conda install tqdm
+
+conda install python-lmdb
+conda install matplotlib
+conda install scikit-learn
